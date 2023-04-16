@@ -47,15 +47,20 @@ public class Producto {
 	/**
 	 * 
 	 * @param a Parametro 1 del producto, de tipo real
-	 * @param b
-	 * @param c
-	 * @return
+	 * @param b Parametro 2 del producto, de tipo real
+	 * @param c Parametro 3 del producto, de tipo real
+	 * @return Resultado del producto de 3 numeros reales
 	 */
 	
 	public float tresReales(float a, float b, float c) {
 		return a*b*c;
 	}
 	
+	/**
+	* @param base Base de la potencia
+	 * @param exponente Exponente de la potencia
+	 * @return Resultado de la potencia
+	 */
 	public double potencia(double base, double exponente) {
 		return Math.pow(base, exponente);
 	}
